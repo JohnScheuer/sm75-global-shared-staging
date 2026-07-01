@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/john/cp-async-microbench/build/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
