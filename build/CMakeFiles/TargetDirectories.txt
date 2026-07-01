@@ -1,3 +1,0 @@
-/home/john/cp-async-microbench/build/CMakeFiles/bench.dir
-/home/john/cp-async-microbench/build/CMakeFiles/edit_cache.dir
-/home/john/cp-async-microbench/build/CMakeFiles/rebuild_cache.dir
