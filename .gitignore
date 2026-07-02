@@ -58,7 +58,7 @@ bandwidth_plot.png
 results/raw/*.csv
 
 # If you want to ignore all generated plots:
-# results/plots/*.png
+# results/plots/*.
 # results/plots/*.svg
 
 # =========================
