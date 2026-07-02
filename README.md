@@ -61,7 +61,7 @@ vec4 + barrier + BLOCK=512
 
 ## 📈 Roofline Analysis
 
-![Roofline](results/plots/roofline_sm75_vs_sm80_refined.png)
+![Roofline](roofline_sm75_vs_sm80_refined.png)
 
 ### Arithmetic Intensity
 
