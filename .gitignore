@@ -1,19 +1,79 @@
-# Build directory
+# =========================
+# Build Artifacts
+# =========================
 build/
-
-# Object files
-*.o
-*.obj
-
-# Binaries
-bench
-a.out
-
-# CMake
-CMakeCache.txt
+cmake-build-*/
 CMakeFiles/
+CMakeCache.txt
 cmake_install.cmake
 Makefile
+*.cmake
 
-# Temporary
+# =========================
+# CUDA / Compiled Objects
+# =========================
+*.o
+*.obj
+*.ptx
+*.cubin
+*.fatbin
+*.linkinfo
+*.dlink.*
+*.nvcc.*
+*.ii
+*.s
+
+# =========================
+# Executables
+# =========================
+bench
+a.out
+*.exe
+
+# =========================
+# Temporary Files
+# =========================
 temp.o
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =========================
+# Python Virtual Environment
+# =========================
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# =========================
+# Generated Results
+# =========================
+results.csv
+roofline_sm75_vs_sm80_refined.png
+roofline_sm75_vs_sm80_refined.svg
+bandwidth_plot.png
+results/raw/*.csv
+
+# If you want to ignore all generated plots:
+# results/plots/*.png
+# results/plots/*.svg
+
+# =========================
+# OS / WSL
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# VSCode
+# =========================
+.vscode/
+
+# =========================
+# NVIDIA Profiling
+# =========================
+*.ncu-rep
+*.nsys-rep
